@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  exclude:
+    - "**.g.dart"
+    - "**.freezed.dart"
+  errors:
+    todo: ignore
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - prefer_relative_imports
+    - library_prefixes
+    - unawaited_futures
+    - prefer_final_locals
+    - prefer_final_in_for_each
